@@ -10,4 +10,4 @@ Sample app demonstrating ResizeObserver loop error
 
 # More info
 - problem does not occur with production build
-- in src/components/designTable, the DataGrid is rendered. Removing the prop
+- in src/components/designTable, the DataGrid is rendered. Removing the prop ```getRowHeight={() => 'auto'}``` fixes the error. But without this line, the cell content is not word wrapping.
