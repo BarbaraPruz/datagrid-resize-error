@@ -1,5 +1,5 @@
 import React from 'react';
-import Page from '../page';
+//import Page from '../page';
 import DesignTable from '../designTable';
 
 const designData = {
@@ -69,14 +69,16 @@ const designData = {
 };
 
 function DesignDashboard() {
-    return (
+    /*     return (
         <Page>
             <div className="ps-0 ps-md-4 pe-2 pe-sm-0 pe-xs-0">
                 <h1 className="mt-2">Design Dashboard</h1>
                 <DesignTable projects={designData?.projects} />
             </div>
         </Page>
-    );
+    ); */
+    console.log;
+    return <DesignTable projects={designData?.projects} />;
 }
 
 export default DesignDashboard;
